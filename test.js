@@ -16,13 +16,13 @@ QUnit.test("Function `cdreset` should exist", function(t) {
 });
 
 
-QUnit.test('Check if funtion timer are working', function(t) {
+QUnit.test('Check if countdown work', function(t) {
   cdreset();
 //var m=.1;
 countdown()
     var done = t.async(1);
     window.setTimeout(function() {
-        t.equal(back(), 0, 'Start Func works');
+        t.equal(back(), 0, 'everything  works');
         done();
     }, 6000);
 });
