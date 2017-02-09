@@ -9,8 +9,20 @@ QUnit.test("Function `change` should exist", function(t) {
   t.ok(window.cddisplay,'it exists');
 });
 QUnit.test("Function `cdpause` should exist", function(t) {
-  t.equal(cdpause,0,'it exists');
+t.ok(window.cddisplay,'it exists');
 });
 QUnit.test("Function `cdreset` should exist", function(t) {
   t.ok(window.cdreset,'it exists');
+});
+
+
+QUnit.test('Check if funtion timer are working', function(t) {
+  cdreset();
+//var m=.1;
+countdown()
+    var done = t.async(1);
+    window.setTimeout(function() {
+        t.equal(back(), 0, 'Start Func works');
+        done();
+    }, 6000);
 });

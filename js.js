@@ -1,8 +1,12 @@
-var m = document.getElementById('myNumber').value;
-var t, count;
-var called = true;
-var CCOUNT = m * 60 * 1000;
+  var t, count;
+function Set (){
 
+  var m = document.getElementById('myNumber').value;
+
+  var called = true;
+  var CCOUNT = m * 60 * 1000;
+
+}
 function cddisplay() {
     min = Math.floor((count / 1000 / 60) << 0),
         sec = Math.floor((count / 1000) % 60)
@@ -13,6 +17,7 @@ function cddisplay() {
     document.getElementById('mints').innerHTML = min;
     document.getElementById('scnd').innerHTML = sec;
 }
+
 
 function countdown() {
 
@@ -35,11 +40,9 @@ function countdown() {
 
 function cdpause() {
 
+clearTimeout(t)
+  document.getElementById("start").disabled = falsey;
 
-
-    document.getElementById('Pause').onclick=function(){
-        document.getElementById("start").disabled = false;
-          clearTimeout(t)  }
 
 }
 
