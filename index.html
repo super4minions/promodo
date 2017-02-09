@@ -7,13 +7,13 @@
 
 <body onload="cdreset()">
     <div id=all>
-        <h1>pomodoro timer</h1>
+        <h1>POMODORO Timer</h1>
         <div id="clockdiv">
-            <div>
+            <div class="sq">
                 <span class="minutes" id="mints"></span>
                 <div class="smalltext"> Minutes</div>
             </div>
-            <div>
+            <div class="sq">
                 <span class="seconds" id="scnd"></span>
                 <div class="smalltext">Seconds</div>
             </div>
@@ -22,8 +22,8 @@
     <input type="number" id="myNumber" value="5">
     <div id=button>
         <button onclick="countdown()" class="button" id="start">Start</button>
-        <button onclick="cdpause()" class="button">Pause</button>
-        <button onclick="cdreset()" class="button">Reset</button>
+        <button onclick="cdpause()" class="button"id="Pause">Pause</button>
+        <button onclick="cdreset()" class="button"id="Reset">Reset</button>
     </div>
     <script type="text/javascript" src="js.js"></script>
     <!-- <script type="text/javascript" src="test.js"></script> -->

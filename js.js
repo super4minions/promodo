@@ -1,6 +1,6 @@
 var m = document.getElementById('myNumber').value;
 var t, count;
-var called = false;
+var called = true;
 var CCOUNT = m * 60 * 1000;
 
 function cddisplay() {
@@ -15,20 +15,34 @@ function cddisplay() {
 }
 
 function countdown() {
-    called = true;
+
     cddisplay();
+
     if (count == 0) {
-        // time is up
+
+
     } else {
-        count -= 1000;
-        t = setTimeout("countdown();", 1000);
-    }
+
+      document.getElementById("start").disabled = true;
+      count -= 1000;
+      t = setTimeout("countdown();", 1000);
+
+
+
+     }
+
 }
 
 function cdpause() {
-    // pauses countdown
-    clearTimeout(t);
+
+
+
+    document.getElementById('Pause').onclick=function(){
+        document.getElementById("start").disabled = false;
+          clearTimeout(t)  }
+
 }
+
 
 function cdreset() {
     m = document.getElementById('myNumber').value;
@@ -39,6 +53,5 @@ function cdreset() {
 
     count = CCOUNT;
     cddisplay();
+    document.getElementById("start").disabled = false;
 }
-cdreset();
-countdown();

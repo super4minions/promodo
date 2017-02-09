@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
+    <title>TDD class</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+<body onload="cdreset()">
+    <div id=all>
+        <h1>pomodoro timer</h1>
+        <div id="clockdiv">
+            <div>
+                <span class="minutes" id="mints"></span>
+                <div class="smalltext"> Minutes</div>
+            </div>
+            <div>
+                <span class="seconds" id="scnd"></span>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+    </div>
+    <input type="number" id="myNumber" value="5">
+    <div id=button>
+        <button onclick="countdown();" class="button" id="start">Start</button>
+        <button onclick="cdpause();" class="button" id="pppp">Pause</button>
+        <button onclick="cdreset();" class="button" id="Reset">Reset</button>
+    </div>
+    <script type="text/javascript" src="js.js"></script>
+    <!-- <script type="text/javascript" src="test.js"></script> -->
+</body>
+
+<body>
+
+    <div id="qunit">
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+
+</body>
+
+</html>
