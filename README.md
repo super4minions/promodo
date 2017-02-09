@@ -10,9 +10,11 @@ Our [Test page] (https://super4minions.github.io/promodo/test.html)
 ---------------------------------------
 #How to run
 ---------------------------------------
-You can Determine the time  and then click Start button the timer will start to countdown  until it rech 0
+You can Determine the time  and then click Set button  then Start button then the timer will start to countdown  until it rech 0
 
   You Can pause or Reset the timer
+  
+  You Can Add Minutes As many As You Want  
 
 ---------------------------------------
 
