@@ -6,8 +6,8 @@
 ---------------------------------------
 #How to run
 ---------------------------------------
-You can Determine the time  and then click Start button 
-the timer will start to countdown  until it rech 0
+You can Determine the time  and then click Start button the timer will start to countdown  until it rech 0
+
 ---------------------------------------
 
 #Why
@@ -21,5 +21,6 @@ Project Plan
 
 
 -----------------------
+We are try hard to make it better with some new fetures 
 
 #That's it , Thank you 
