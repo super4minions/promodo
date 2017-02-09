@@ -41,7 +41,7 @@ function countdown() {
 function cdpause() {
 
 clearTimeout(t)
-  document.getElementById("start").disabled = falsey;
+  document.getElementById("start").disabled = false;
 
 
 }
