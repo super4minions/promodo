@@ -4,7 +4,7 @@
 
 <img src="http://2.1m.yt/yFw2GwI.png">
 
-our [Main page] (https://super4minions.github.io/promodo/index.html)
+#our [Main page] (https://super4minions.github.io/promodo/index.html)
 
 Our [Test page] (https://super4minions.github.io/promodo/test.html)
 ---------------------------------------
