@@ -1,12 +1,13 @@
 # Pomodoro-Timer
 ##Build a Pomodoro Timer
 
-[<img src="http://2.1m.yt/yFw2GwI.png">]
+<img src="http://2.1m.yt/yFw2GwI.png">
 
 ---------------------------------------
 #How to run
 ---------------------------------------
 You can Determine the time  and then click Start button the timer will start to countdown  until it rech 0
+  You Can pause or Reset the timer 
 
 ---------------------------------------
 
