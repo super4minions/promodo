@@ -18,7 +18,10 @@ function cddisplay() {
     document.getElementById('scnd').innerHTML = sec;
 }
 
+function back (){
 
+return count
+}
 function countdown() {
 
     cddisplay();
