@@ -7,6 +7,7 @@
 #How to run
 ---------------------------------------
 You can Determine the time  and then click Start button the timer will start to countdown  until it rech 0
+  
   You Can pause or Reset the timer 
 
 ---------------------------------------
